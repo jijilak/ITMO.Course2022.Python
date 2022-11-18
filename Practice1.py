@@ -65,7 +65,7 @@ print(f"Коэффициент замедления спасателя при д
 print(f"Направление движения спасателя по песку, θ1 (градусы) => {theta1 :.3f}")
 
 v_swim = v_sand / coefficient
-print(f"Скорость движения по воде, мили в час: v_swim = {v_swim :.1f}")
+print(f"Скорость движения по воде, v_swim (мили в час) => {v_swim :.1f}")
 
 
 arrivalTime = (Length1 + (coefficient * Length2)) / v_sand
