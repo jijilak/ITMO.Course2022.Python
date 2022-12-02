@@ -28,7 +28,6 @@ def steps_game(igrok1, igrok2):
         print(igrok1, "получено очков: ", tur_igrok1, "Сумма очков: ", summa_igrok1)
         print(igrok2, "получено очков: ", tur_igrok2, "Сумма очков: ", summa_igrok2)
     return [summa_igrok1, summa_igrok2]
-#
 
 
 def who_win(igrok1, igrok2, summa_igrok1, summa_igrok2):
